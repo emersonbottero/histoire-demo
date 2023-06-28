@@ -1,0 +1,31 @@
+{
+  "name": "histoire-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonbottero/histoire-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emersonbottero/histoire-demo/issues"
+  },
+  "homepage": "https://github.com/emersonbottero/histoire-demo#readme",
+  "devDependencies": {
+    "@histoire/plugin-vue": "^0.16.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "histoire": "^0.16.2",
+    "inclusive-dates": "^0.1.8",
+    "vite": "^4.3.9"
+  }
+}
